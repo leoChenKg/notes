@@ -30,6 +30,8 @@
     "marked": "^4.0.19",
     "node-sass": "^7.0.1",
     "npm": "^8.15.1",
+    "postcss-loader": "^7.0.1",
+    "postcss-preset-env": "^7.8.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
