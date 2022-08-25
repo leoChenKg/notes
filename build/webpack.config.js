@@ -10,7 +10,7 @@ const BaseConfig = () => {
     output: {
       filename: 'main.js',
       path: path.resolve(__dirname, '../docs'),
-      publicPath: process.env.NODE_ENV === 'development' ? '/' : './notes/'
+      publicPath: process.env.NODE_ENV === 'development' ? '/' : './'
     },
     resolve: {
       alias: {
