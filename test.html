@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      class WidthListener {
+        resizeHubList = []
+        constructor() {
+          this.listen()
+        }
+
+        observe(ctx) {
+          this.resizeHubList.push(ctx)
+        }
+
+        listen() {
+          window.addEventListener('resize', () => this.notify())
+        }
+
+        notify() {
+          this.resizeHubList.forEach(hub => hub.update())
+        }
+
+        static getIncetance(ctx) {
+          const instance = WidthListener.instance || (WidthListener.instance = window.instance = new WidthListener())
+          WidthListener.instance.observe(ctx)
+          return instance
+        }
+      }
+
+      class ResizeHub {
+        config = {
+          xs: width => width < 544,
+          sm: width => width >= 544 && width < 768,
+          md: width => width >= 768 && width < 992,
+          lg: width => width >= 992 && width < 1200,
+          xl: width => width >= 1200
+        }
+        constructor(separator = {}) {
+          this.sizeFns = {
+            xs: [],
+            sm: [],
+            md: [],
+            lg: [],
+            xl: []
+          }
+          this.curSize = undefined
+          this.widthListener = WidthListener.getIncetance(this)
+        }
+
+        on(size, fn) {
+          this.sizeFns[size].push(fn)
+        }
+        update() {
+          const width = window.innerWidth
+          for (const size in this.config) {
+            if (this.config[size](width)) {
+              if (this.curSize === size) break
+              this.sizeFns[size].forEach(fn => fn())
+              this.curSize = size
+            }
+          }
+        }
+      }
+
+      const resizeHub1 = new ResizeHub()
+      const resizeHub2 = new ResizeHub()
+      resizeHub1.on('xs', () => {
+        console.log('xs1')
+      })
+      resizeHub2.on('xs', () => {
+        console.log('xs2')
+      })
+    </script>
+  </body>
+</html>

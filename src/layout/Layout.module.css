@@ -1,0 +1,78 @@
+.app-con {
+  height: 100%;
+  position: relative;
+}
+
+.main-con {
+  position: absolute;
+  right: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: calc(100% - 250px);
+  overflow-y: auto;
+  transition: 0.3s width cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.routes-con {
+  padding: 32px 16px;
+  padding-top: 64px !important;
+  padding-bottom: 64px !important;
+  max-width: 105ch;
+  margin: 0 auto;
+}
+
+.icon-button {
+  width: 34px;
+  height: 34px;
+  outline: 0;
+  user-select: none;
+  vertical-align: middle;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #e0e3e7;
+  border-radius: 10px;
+  color: #007fff;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.icon-button > img {
+  width: 16px;
+}
+
+.navbar {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .routes-con {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .routes-con {
+    padding: 0 16px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .main-con {
+    width: 100%;
+  }
+
+  .navbar {
+    display: inline-flex;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .routes-con {
+    padding: 0 60px;
+  }
+}

@@ -1,0 +1,16 @@
+.main-header {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  box-sizing: border-box;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.72);
+  border-style: solid;
+  border-color: rgb(231, 235, 240);
+  border-width: 0px 0px thin;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+  box-sizing: border-box;
+}

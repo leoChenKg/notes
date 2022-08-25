@@ -1,0 +1,42 @@
+Arguments: 
+  D:\apps\env\node\node.exe D:\apps\env\node\node_global\node_modules\yarn\bin\yarn.js add style-loader css-loader html-webpack-plugin clean-webpack-plugin
+
+PATH: 
+  D:\apps\env\Java\jdk-11.0.12\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\apps\tools\TortoiseSVN\bin;D:\apps\tools\Git\cmd;D:\apps\env\node\;D:\apps\env\node\node_global;D:\apps\ide\微信web开发者工具\dll;C:\Program Files\dotnet\;D:\apps\env\Android\Sdk\platform-tools;D:\apps\env\Android\Sdk\emulator;D:\apps\env\Android\Sdk\tools;D:\apps\env\Android\Sdk\tools\bin;C:\Users\leoch\AppData\Local\Microsoft\WindowsApps;D:\apps\ide\Microsoft VS Code\bin;C:\Users\leoch\AppData\Roaming\npm;D:\apps\tools\GitHub CLI\
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.18.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.16.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)
+
+npm manifest: 
+  {
+    "name": "basic",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "webpack": "^5.72.1",
+      "webpack-cli": "^4.9.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
