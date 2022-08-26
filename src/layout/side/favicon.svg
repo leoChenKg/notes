@@ -1,0 +1,58 @@
+<svg data-v-2cb57da0="" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB" style="margin: auto;">
+    <rect data-v-2cb57da0="" x="0" y="0" width="100%" height="100%" fill="#0a0a37" fill-opacity="0" class="background"></rect>
+    <rect data-v-2cb57da0="" x="0" y="0" width="100%" height="100%" fill="url(#watermark)" fill-opacity="1" class="watermarklayer"></rect>
+    <g data-v-2cb57da0="" fill="#1891db" class="iconlettersvg-g iconlettersvg" transform="translate(-0.35296630859375,55.99967956542969)">
+        <g>
+            <g class="tp-name" opacity="1" transform="matrix(1,0,0,1,0,0)">
+                <g transform="scale(2.7600000000000016)">
+                    <g transform="translate(0, 0)">
+                        <g class="name-imagesvg">
+                            <g>
+                                <rect fill="#1891db" fill-opacity="0" stroke-width="2" x="0" y="0" width="40.72969080820809" height="50" class="image-rect"></rect>
+                                <svg x="0" y="0" width="40.72969080820809" height="50" filtersec="colorsb9287623302" class="image-svg-svg primary" style="overflow: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.75 21.79">
+                                        <title>资源 4</title>
+                                        <path fill="#cfe2f3" d="M11.3 0h6.45v16.9H11.3z"></path>
+                                        <path fill="#1891db" d="M0 0h5.73v21.79H0z"></path>
+                                    </svg>
+                                </svg> <!---->
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(40.72969080820809, 0)">
+                        <g class="name-imagesvg">
+                            <g>
+                                <rect fill="#1891db" fill-opacity="0" stroke-width="2" x="0" y="0" width="40.20192685095091" height="50" class="image-rect"></rect>
+                                <svg x="0" y="0" width="40.20192685095091" height="50" filtersec="colorsb6597304196" class="image-svg-svg primary" style="overflow: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.52 21.79">
+                                        <title>资源 13</title>
+                                        <path fill="none" d="M0 0h17.52v21.79H0z"></path>
+                                        <path fill="#1891db" d="M5.1 4.89v3.38h6.57v4.89H5.1v3.74h6.78v4.89h5.64V0h-5.64v4.89H5.1z"></path>
+                                    </svg>
+                                </svg> <!---->
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(80.931617659159, 0)">
+                        <g class="name-imagesvg">
+                            <g>
+                                <rect fill="#1891db" fill-opacity="0" stroke-width="2" x="0" y="0" width="42.51256771776897" height="50" class="image-rect"></rect>
+                                <svg x="0" y="0" width="42.51256771776897" height="50" filtersec="colorsb1345258279" class="image-svg-svg primary" style="overflow: visible;">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18.53 21.79">
+                                        <title>资源 3</title>
+                                        <path d="M7.48 4.71c-3.72 0-5.73 3.18-5.73 6.13 0 3.24 2.18 6.24 5.79 6.24 3.8 0 5.64-3.46 5.64-6.16s-1.84-6.21-5.7-6.21z" fill="#cfe2f3"></path>
+                                        <path d="M7.48 21.79h11.05V11.11A10.86 10.86 0 0 1 7.48 21.79z" fill="#1891db"></path>
+                                        <path d="M0 21.79h7.36A11 11 0 0 1 0 19z" fill="#cfe2f3"></path>
+                                        <path d="M18.53 10.69V0H7.45a10.88 10.88 0 0 1 11.08 10.69z" fill="#1891db"></path>
+                                        <path d="M0 0v2.77A10.91 10.91 0 0 1 7.45 0z" fill="#1891db"></path>
+                                    </svg>
+                                </svg> <!---->
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g> <!---->
+    </g>
+    <defs v-gra="od"></defs>
+</svg>
