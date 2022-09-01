@@ -1,4 +1,6 @@
 const { marked } = require('marked')
+const path = require('path')
+const { promises: fs, readdirSync } = require('fs')
 
 marked.setOptions({
   renderer: new marked.Renderer(),
@@ -9,7 +11,13 @@ marked.setOptions({
   },
   langPrefix: 'hljs language-'
 })
-module.exports = function (source) {
+module.exports = async function (source) {
+  // this.resourcePath 资源绝对路径
+  const englishFilepath = this.resourcePath // 资源的绝对路径
+  const englishFilename = path.basename(englishFilepath, '.md') // 获取无后缀文件名称
+  const files = await fs.readdir(path.dirname(englishFilepath)); // path.dirname 根据路文件径获取目录
+  console.log(files)
+
   let __html = marked.parse(source)
   let obj = { __html }
 
@@ -26,15 +34,15 @@ module.exports = function (source) {
  * md 头部信息
  * ---
  * title: React ButtonGroup（按钮组）组件
- * time: 2022-10-11 
+ * time: 2022-10-11
  * ---
  * 最后编辑时间
  * 提取出目录信息（h2 h3）
- * 
+ *
  * 流程图
- * 
+ *
  * badge 小数字符号
  *
- * 
+ *
  * 数学符号
  */
